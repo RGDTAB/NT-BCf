@@ -1,0 +1,3 @@
+slangpy
+opencv-python
+OpenExr

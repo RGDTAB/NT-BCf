@@ -1,0 +1,29 @@
+{
+    "standard_tex": [
+        "test_data/planks/planks-color.png"
+    ],
+    "normal_map": [
+        "test_data/planks/planks-normal.png"
+    ],
+    "single_channel": [
+        "test_data/planks/planks-ao.png",
+        "test_data/planks/planks-roughness.png",
+        "test_data/planks/planks-displacement.png",
+        "test_data/planks/planks-metalness.png"
+    ],
+    "max_mips": -1,
+    "generate_mips": true,
+    "format": "BCf1A",
+    "half_resolution": false,
+    "mlp_width": 16,
+    "training_epochs": 1000,
+    "batch_size": 512,
+    "texture_lr": 0.01,
+    "mlp_lr": 0.001,
+    "cos": false,
+    "l1": false,
+    "reporting_period": 100,
+    "quiet": false,
+    "no_gui": false,
+    "output": "test_data/planks/planks.bin"
+}

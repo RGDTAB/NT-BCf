@@ -1,0 +1,25 @@
+{
+    "standard_tex": [
+        "test_data/portable_cassette_player/portable_cassette_player_diff_4k.exr",
+        "test_data/portable_cassette_player/portable_cassette_player_arm_4k.jpg"
+    ],
+    "normal_map": [
+        "test_data/portable_cassette_player/portable_cassette_player_nor_gl_4k.exr"
+    ],
+    "single_channel": [],
+    "max_mips": -1,
+    "generate_mips": true,
+    "format": "BCf1A",
+    "half_resolution": false,
+    "mlp_width": 16,
+    "training_epochs": 1000,
+    "batch_size": 512,
+    "texture_lr": 0.01,
+    "mlp_lr": 0.001,
+    "cos": false,
+    "l1": false,
+    "reporting_period": 100,
+    "quiet": false,
+    "no_gui": false,
+    "output": "test_data/portable_cassette_player/portable_cassette.bin"
+}

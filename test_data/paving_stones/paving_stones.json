@@ -1,0 +1,33 @@
+{
+    "json": "test_data/paving_stones/paving_stones.json",
+    "standard_tex": [
+        "test_data/paving_stones/paving_stones-color.jpg"
+    ],
+    "normal_map": [
+        "test_data/paving_stones/paving_stones-normal.jpg"
+    ],
+    "single_channel": [
+        "test_data/paving_stones/paving_stones-displacement.jpg",
+        "test_data/paving_stones/paving_stones-roughness.jpg",
+        "test_data/paving_stones/paving_stones-ao.jpg"
+    ],
+    "max_mips": -1,
+    "generate_mips": true,
+    "format": "BCf1A",
+    "half_resolution": false,
+    "mlp_width": 16,
+    "training_epochs": 1000,
+    "batch_size": 512,
+    "texture_lr": 0.01,
+    "mlp_lr": 0.001,
+    "l1": false,
+    "half_latents": false,
+    "half_params": false,
+    "half_grad": false,
+    "half_math": false,
+    "reporting_period": 100,
+    "quiet": false,
+    "no_gui": false,
+    "output": "test_data/paving_stones/paving_stones.bin",
+    "cos": false
+}

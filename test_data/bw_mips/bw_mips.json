@@ -1,0 +1,22 @@
+{
+    "standard_tex": [],
+    "normal_map": [],
+    "single_channel": [
+        "test_data/bw_mips/mip0.png,test_data/bw_mips/mip1.png,test_data/bw_mips/mip2.png,test_data/bw_mips/mip3.png"
+    ],
+    "max_mips": -1,
+    "generate_mips": true,
+    "format": "BCf1A",
+    "half_resolution": false,
+    "mlp_width": 16,
+    "training_epochs": 1000,
+    "batch_size": 512,
+    "texture_lr": 0.01,
+    "mlp_lr": 0.001,
+    "cos": false,
+    "l1": false,
+    "reporting_period": 100,
+    "quiet": false,
+    "no_gui": false,
+    "output": "test_data/bw_mips/bw_mips.bin"
+}

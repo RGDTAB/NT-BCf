@@ -1,0 +1,23 @@
+{
+    "json": null,
+    "standard_tex": [
+        "test_data/mip_tests/mip0.png,test_data/mip_tests/mip2.png"
+    ],
+    "normal_map": [],
+    "single_channel": [],
+    "max_mips": -1,
+    "generate_mips": true,
+    "format": "BCf1A",
+    "half_resolution": false,
+    "mlp_width": 16,
+    "training_epochs": 1000,
+    "batch_size": 512,
+    "texture_lr": 0.01,
+    "mlp_lr": 0.001,
+    "cos": false,
+    "l1": false,
+    "reporting_period": 100,
+    "quiet": false,
+    "no_gui": false,
+    "output": "test_data/mip_tests/mips.bin"
+}
